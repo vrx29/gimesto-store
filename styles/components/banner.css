@@ -1,0 +1,78 @@
+.banner {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.banner-badge {
+  position: absolute;
+  top: 0;
+  background-color: var(--COLOR-PRIMARY);
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem 0 1rem 0;
+}
+.banner-content {
+  margin-left: 10rem;
+}
+.banner-content p {
+  color: var(--COLOR-GRAY-200);
+  margin-bottom: 1rem;
+}
+.banner-img {
+  padding: 0 4rem;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.banner-card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.banner-card {
+  position: relative;
+  background-color: #21794e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 2rem 1rem;
+  flex: 1 1 0;
+  border-radius: 1rem;
+  color: var(--COLOR-LIGHT);
+}
+.banner-card .banner-badge {
+  left: 0;
+  background-color: var(--COLOR-WARNING);
+}
+.banner-card img {
+  max-width: 260px;
+  margin: 3rem auto;
+}
+.banner-card:nth-child(2) {
+  background-color: #14213d;
+}
+.banner-card p {
+  text-transform: uppercase;
+  color: var(--COLOR-GRAY-100);
+  margin-bottom: 0.8rem;
+}
+.trending-products-heading {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+.top-products-cont {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
