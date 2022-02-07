@@ -10,7 +10,7 @@
       href="https://gimesto.netlify.app/styles/components/index.css"
       type="text/css"
     />
-    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link rel="stylesheet" href="../styles.css" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -20,11 +20,12 @@
     />
   </head>
   <body>
+    <!-- Header Section -->
     <header class="header">
       <nav class="header-navigation">
         <div class="logo">
           <a href="">
-            <img src="./assets/logo/logo.svg" />
+            <img src="../assets/logo/logo.svg" />
             imesto<span class="logo-yellow">Shop</span>
           </a>
         </div>
@@ -32,7 +33,7 @@
           <input class="input" type="email" placeholder="Search" />
         </div>
         <div class="actions">
-          <a href="./pages/wishlist.html">
+          <a>
             <i class="fas fa-heart"></i>
           </a>
           <a>
@@ -43,49 +44,21 @@
         </div>
       </nav>
     </header>
+    <!-- Header Section -->
 
+    <!-- Main Section -->
     <main>
-      <!-- Long Banner Start -->
-      <div class="banner">
-        <div class="banner-badge">Now Available</div>
-        <div class="banner-content">
-          <p>KEYBOARDS</p>
-          <h5>Keychron K2 Mechanical Keyboard</h5>
-        </div>
-        <img
-          class="banner-img"
-          src="./assets/banner-images/banner-keyboard.png"
-        />
-      </div>
-      <!-- Long Banner End -->
-
-      <!-- Card Banner Start -->
-      <div class="banner-card-cont">
-        <div class="banner-card">
-          <img src="./assets/banner-images/xbox-controller.png" />
-          <p>KEYBOARDS</p>
-          <h5>Keychron K2 Mechanical Keyboard</h5>
-        </div>
-        <div class="banner-card">
-          <div class="banner-badge">Trending</div>
-          <img src="./assets/banner-images/vr.png" />
-          <p>VIRTUAL REALITY</p>
-          <h5>Oculus Rift Headset</h5>
-        </div>
-      </div>
-      <!-- Card Banner End -->
-
-      <!-- Top Products Start -->
-      <h3 class="trending-products-heading">Trending Products</h3>
-      <div class="top-products-cont">
-        <div class="card card-ecom">
+      <h6>My Wishlist <span class="wishlist-item-count">3 Items</span></h6>
+      <section class="wishlist-cont">
+        <div class="card card-ecom card-horiz">
           <div class="card-img-cont">
             <img
               class="card-img"
-              src="./assets/products/ps5-controller.png"
+              src="../assets/products/ps5-controller.png"
               alt="ps5"
             />
           </div>
+          <div class="card-badge">SALE</div>
           <div class="card-body">
             <div class="card-header">
               <h6 class="card-title">SONY</h6>
@@ -98,103 +71,79 @@
             </div>
             <div class="card-footer">
               <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
             </div>
           </div>
         </div>
-        <div class="card card-ecom">
+        <div class="card card-ecom card-horiz">
           <div class="card-img-cont">
             <img
               class="card-img"
-              src="./assets/products/logitech-mouse.png"
-              alt="ps5"
-            />
-          </div>
-          <div class="card-body">
-            <div class="card-header">
-              <h6 class="card-title">LOGITECH</h6>
-              <p class="card-desc">Logitech G102 Gaming</p>
-              <div class="card-price">
-                <span class="price-new">Rs.1199</span>
-                <span class="price-old">Rs.1999</span>
-                <span class="discount">(40%)</span>
-              </div>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-primary">ADD TO CART</button>
-            </div>
-          </div>
-        </div>
-        <div class="card card-ecom">
-          <div class="card-img-cont">
-            <img
-              class="card-img"
-              src="./assets/products/farcry.jpeg"
+              src="../assets/products/ps5-controller.png"
               alt="ps5"
             />
           </div>
           <div class="card-badge">SALE</div>
           <div class="card-body">
             <div class="card-header">
-              <h6 class="card-title">PS5</h6>
-              <p class="card-desc">FAR CRY 6</p>
+              <h6 class="card-title">SONY</h6>
+              <p class="card-desc">DualSense Gamepad</p>
               <div class="card-price">
-                <span class="price-new">Rs.2599</span>
-                <span class="price-old">Rs.4999</span>
+                <span class="price-new">Rs.4599</span>
+                <span class="price-old">Rs.5999</span>
                 <span class="discount">(24%)</span>
               </div>
             </div>
             <div class="card-footer">
               <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
             </div>
           </div>
         </div>
-        <div class="card card-ecom">
+        <div class="card card-ecom card-horiz">
           <div class="card-img-cont">
             <img
               class="card-img"
-              src="./assets/products/razer-headphone.png"
+              src="../assets/products/ps5-controller.png"
               alt="ps5"
             />
           </div>
+          <div class="card-badge">SALE</div>
           <div class="card-body">
             <div class="card-header">
-              <h6 class="card-title">RAZER</h6>
-              <p class="card-desc">Razer BlackShark V2 X</p>
+              <h6 class="card-title">SONY</h6>
+              <p class="card-desc">DualSense Gamepad</p>
               <div class="card-price">
-                <span class="price-new">Rs.5599</span>
-                <span class="price-old">Rs.6999</span>
-                <span class="discount">(28%)</span>
+                <span class="price-new">Rs.4599</span>
+                <span class="price-old">Rs.5999</span>
+                <span class="discount">(24%)</span>
               </div>
             </div>
             <div class="card-footer">
               <button class="btn btn-primary">ADD TO CART</button>
+              <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Top Products End -->
+      </section>
     </main>
-    <!-- Footer Section Start -->
+    <!-- Main Section -->
+
+    <!-- Footer Section -->
     <footer>
       <nav class="footer-nav">
         <div class="logo">
           <a href="">
-            <img src="./assets/logo/logo.svg" />
+            <img src="../assets/logo/logo.svg" />
             imesto<span class="logo-yellow">Shop</span>
           </a>
         </div>
         <ul class="nav-links">
           <li><a>HOME</a></li>
-          <li><a href="./pages/product.html">PRODUCTS</a></li>
+          <li><a>PRODUCTS</a></li>
           <li><a>CONTACT US</a></li>
         </ul>
       </nav>
-      <div class="footer-card">
-        <h5>
-          Gimesto is a place where you will find wide range of gaming products
-        </h5>
-        <button class="btn btn-primary">Shop Now</button>
-      </div>
       <div class="footer-info">
         <p>
           © Gimesto
@@ -218,6 +167,6 @@
         </div>
       </div>
     </footer>
-    <!-- Footer Section End -->
+    <!-- Footer Section -->
   </body>
 </html>
