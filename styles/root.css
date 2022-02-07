@@ -3,6 +3,7 @@
 @import url(./components/footer.css);
 @import url(./components/filters.css);
 @import url(./components/products-container.css);
+@import url(./components/cart.css);
 
 @import url(./utilities/anchor.css);
 @import url(./utilities/layout.css);
