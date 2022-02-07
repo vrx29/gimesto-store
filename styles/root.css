@@ -3,8 +3,10 @@
 @import url(./components/footer.css);
 @import url(./components/filters.css);
 @import url(./components/products-container.css);
-
+@import url(./components/cart.css);
+@import url(./components/wishlist.css);
+@import url(./components/authentication.css);
 
 @import url(./utilities/anchor.css);
 @import url(./utilities/layout.css);
-@import url(./utilities/list.css);
+@import url(./utilities/list.css); ;
