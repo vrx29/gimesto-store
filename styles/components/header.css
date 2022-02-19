@@ -31,9 +31,11 @@
 .actions a {
   margin: 0 0.5rem;
   font-size: 1.2rem;
+}
+.actions i {
   color: #64748b;
 }
-.actions a:hover {
+.actions a i:hover {
   color: var(--COLOR-PRIMARY);
 }
 .actions a:nth-child(2) {

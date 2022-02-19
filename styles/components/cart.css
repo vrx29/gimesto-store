@@ -82,6 +82,7 @@
 .btn-order {
   margin-top: 1rem;
   width: 100%;
+  justify-content: center;
 }
 .cart-title {
   margin-bottom: 1rem;
