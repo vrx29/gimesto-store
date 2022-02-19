@@ -1,8 +1,19 @@
+.filters .outline {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.filters .slider {
+  accent-color: var(--COLOR-PRIMARY);
+}
+
 .filter-title {
   color: var(--COLOR-GRAY-600);
   font-weight: 600;
   padding: 0.5rem 0;
 }
+
 .filter-checkbox {
   color: var(--COLOR-GRAY-400);
   font-size: 0.8rem;
@@ -10,9 +21,12 @@
   align-items: center;
   padding: 0.2rem 0;
 }
+
 .filter-checkbox input {
   margin-right: 1rem;
+  accent-color: var(--COLOR-PRIMARY);
 }
+
 .label-radio {
   padding: 0.2rem 0;
   color: var(--COLOR-GRAY-400);
