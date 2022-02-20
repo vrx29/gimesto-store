@@ -38,7 +38,7 @@
 .actions a i:hover {
   color: var(--COLOR-PRIMARY);
 }
-.actions a:nth-child(2) {
+.actions a:nth-child(3) {
   margin-right: 2rem;
   position: relative;
 }

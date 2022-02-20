@@ -9,7 +9,6 @@
   display: flex;
   grid-gap: 1rem;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .card-footer {
@@ -17,19 +16,5 @@
 }
 
 .btn-wishlist {
-  margin-left: 0.5rem;
   color: var(--COLOR-ERROR);
-  border: 1px solid var(--COLOR-GRAY-100);
-  background-color: transparent;
-  font-size: 1.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.5rem;
-  max-height: 40px;
-  padding: 1rem;
-}
-
-.btn-wishlist:hover {
-  border: 1px solid var(--COLOR-PRIMARY);
 }
